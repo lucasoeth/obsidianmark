@@ -10,6 +10,11 @@ ObsidianMark is a web extension that allows you to clip web content directly to 
 - Customize vault name, default folder, and tags
 - Compatible with Chrome-based browsers and Firefox
 
+## Prerequisites
+
+- Obsidian must be installed on your device
+- The Advanced URI plugin must be enabled in your Obsidian vault
+
 ## Installation
 
 ### Web Store Installation (Coming Soon)
@@ -43,10 +48,11 @@ ObsidianMark is a web extension that allows you to clip web content directly to 
 
 ## Usage
 
-1. Navigate to a webpage you want to clip
-2. Click the ObsidianMark extension icon in your browser toolbar
-3. If text is selected on the page, only the selected content will be clipped. Otherwise, the entire page will be clipped.
-4. The extension will clip the content and open Obsidian with the new note
+1. Ensure that Obsidian is installed and the Advanced URI plugin is enabled in your vault
+2. Navigate to a webpage you want to clip
+3. Click the ObsidianMark extension icon in your browser toolbar
+4. If text is selected on the page, only the selected content will be clipped. Otherwise, the entire page will be clipped.
+5. The extension will clip the content and open Obsidian with the new note
 
 ## Configuration
 

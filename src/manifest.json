@@ -40,5 +40,11 @@
             "background.js"
         ],
         "type": "module"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "0867bab7a77e6d85a67244c545e726f0898fe53c@obsidianmark",
+            "strict_min_version": "112.0"
+        }
     }
 }
