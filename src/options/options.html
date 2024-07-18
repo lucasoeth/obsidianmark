@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ObsidianMark Settings</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ObsidianMark Settings</h1>
+
+      <div class="section">
+        <h2 class="section-title">
+          Vault
+          <!-- <span class="toggle">▼</span> -->
+        </h2>
+        <div class="section-content">
+          <!-- Vault Name -->
+          <div class="option">
+            <div class="option-content">
+              <label for="vault-name">Vault Name</label>
+              <input type="text" id="vault-name" name="vault-name" />
+              <p class="description">Set the name of your vault</p>
+            </div>
+          </div>
+          <!-- Folder -->
+          <div class="option">
+            <div class="option-content">
+              <label for="vault-folder">Folder</label>
+              <input type="text" id="vault-folder" name="vault-folder" />
+              <p class="description">Set the folder where clippings is saved</p>
+            </div>
+          </div>
+          <!-- Default Tags -->
+          <div class="option">
+            <div class="option-content">
+              <label for="default-tags">Default Tags</label>
+              <input type="text" id="default-tags" name="default-tags" />
+              <p class="description">Set the default tags put into frontmatter, space seperated</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="section">
+        <h2 class="section-title">
+          General settings <span class="toggle">▼</span>
+        </h2>
+        <div class="section-content">
+          <div class="option">
+            <div class="option-content">
+              <label for="picky-mode">Picky mode</label>
+              <p class="description">
+                For perfect style, tonality, and typography
+              </p>
+            </div>
+            <label class="toggle-switch">
+              <input type="checkbox" id="picky-mode" />
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div class="option">
+            <div class="option-content">
+              <label for="default-language">Default Language</label>
+              <input
+                type="text"
+                id="default-language"
+                name="default-language"
+              />
+              <p class="description">Set your preferred language</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <script src="options.js" type="module"></script>
+  </body>
+</html>
