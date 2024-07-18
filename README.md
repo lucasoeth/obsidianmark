@@ -76,3 +76,7 @@ Contributions to these features or other improvements are welcome! Feel free to 
 
 - This project is based on [kepano's obsidian-web-clipper](https://github.com/kepano/obsidian-web-clipper)
 - Some code patterns were inspired by [Decentraleyes](https://git.synz.io/Synzvato/decentraleyes)
+
+## License
+
+[MPL-2.0 License](LICENSE.txt)
